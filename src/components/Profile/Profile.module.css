@@ -1,0 +1,13 @@
+.profile {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    cursor: pointer;
+    transform: translateY(0px);
+    transition: transform 0.3s ease-out;
+}
+
+.profile:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease-out;
+}
