@@ -1,0 +1,16 @@
+.loginBtn {
+    font-family: "Brown-Bold";
+    font-size: 1.5rem;
+    line-height: 2rem;
+    border-radius: 4px;
+    padding: 12px 5vw;
+    margin-top: 40px;
+    background: #FFF;
+    color: #FD5C63;
+    transition: all 0.3s ease-out;
+}
+
+.loginBtn:hover {
+    background: #FFFFFFE1;
+    transition: all 0.3s ease-out;
+}

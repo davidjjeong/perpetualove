@@ -7,6 +7,11 @@
   src: url("/fonts/Brown-Bold.ttf");
 }
 
+@font-face {
+  font-family: "Brown-Regular";
+  src: url("/fonts/Brown-Regular.ttf");
+}
+
 body {
   background: #FD5C63;
   color: #FFF;
@@ -26,5 +31,5 @@ body {
 }
 
 .logo {
-  margin-top: 128px;
+  margin-top: 64px;
 }
