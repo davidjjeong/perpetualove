@@ -13,23 +13,7 @@
 }
 
 body {
-  background: #FD5C63;
-  color: #FFF;
-}
-
-.index-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.index-header {
-  font-family: "Brown-Bold";
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.logo {
-  margin-top: 64px;
+  background: #FFF;
+  color: #000;
+  font-family: "Brown-Regular";
 }

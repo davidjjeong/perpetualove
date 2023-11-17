@@ -1,0 +1,26 @@
+.distanceIndicator {
+    font-family: "Brown-Regular";
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.circledText {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FD5C63;
+
+    line-height: 0;
+    position: relative;
+}
+
+.circledText .text {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+
+    font-family: "Brown-Bold";
+    font-size: 1.25rem;
+    color: #FFF;
+}
