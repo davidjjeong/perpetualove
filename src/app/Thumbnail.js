@@ -14,7 +14,7 @@ export default function Thumbnail() {
                         David
                     </div>
                 </div>
-                <FaRegHeart color="#FD5C63" size={50}/>
+                <FaRegHeart className={styles.heartIcon}/>
                 <div className={styles.circledText}>
                     <div className={styles.text}>
                         Wendy

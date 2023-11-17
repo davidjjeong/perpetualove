@@ -24,3 +24,28 @@
     font-size: 1.25rem;
     color: #FFF;
 }
+
+.heartIcon {
+    color: #FD5C63;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 434px) {
+    .distanceIndicator {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .heartIcon {
+        font-size: 40px;
+    }
+
+    .circledText {
+        width: 80px;
+        height: 80px;
+    }
+
+    .circledText .text {
+        font-size: 1.125rem;
+    }
+}
