@@ -1,0 +1,53 @@
+aside.sideMenu {
+    width: 30vw;
+    height: 100vh;
+    border-right: 1px solid #f2f2f2;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userPicture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    margin: 17.5px 25px 0px 25px;
+}
+
+ul.featureList {
+    padding-left: 25px;
+}
+
+li.featureItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+li.featureItem:last-of-type {
+    margin-bottom: 0;
+}
+
+li.featureItem h1.featureDescription {
+    font-family: "Brown-Regular";
+    font-size: 1.25rem;
+
+    margin-left: 12.5px;
+}
+
+h2.featuresTitle {
+    font-family: "Brown-Regular";
+    font-size: 1.125rem;
+    color: #B3B3B3;
+
+    margin-left: 25px;
+    margin-bottom: 1.25rem;
+}
+
+.featureIcon {
+    font-size: 35px;
+}

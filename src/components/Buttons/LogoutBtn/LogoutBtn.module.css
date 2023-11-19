@@ -1,0 +1,12 @@
+.logoutBtn {
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.logoutBtn:hover {
+    background: #FFF7F7;
+}
+
+.logoutIcon {
+    font-size: 35px;
+}
