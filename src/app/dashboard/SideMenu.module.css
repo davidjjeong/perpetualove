@@ -17,19 +17,17 @@ aside.sideMenu {
     margin: 17.5px 25px 0px 25px;
 }
 
-ul.featureList {
-    padding-left: 25px;
-}
-
 li.featureItem {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 1.25rem;
+    padding: 1.25rem 0 1.25rem 25px;
+    cursor: pointer;
 }
 
-li.featureItem:last-of-type {
-    margin-bottom: 0;
+li.featureItem:hover {
+    background: #FFF7F7;
+    color: #FD5C63;
 }
 
 li.featureItem h1.featureDescription {

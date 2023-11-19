@@ -34,8 +34,7 @@ export default function SideMenu() {
             <aside className={styles.sideMenu}>
                 <div className="mt-[25vh]">
                     <h2 className={styles.featuresTitle}>Overview</h2>
-                    <Features 
-                        ulClass={styles.featureList}
+                    <Features
                         liClass={styles.featureItem}
                         featureIconClass={styles.featureIcon} 
                     />
