@@ -1,0 +1,12 @@
+.dashboardMain {
+    width: 70vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+h1.welcomeMessage {
+    font-family: "Brown-Bold";
+    font-size: 3rem;
+}
